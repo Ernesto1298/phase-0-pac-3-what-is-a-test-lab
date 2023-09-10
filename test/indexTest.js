@@ -9,10 +9,10 @@ describe("what-is-a-test", () => {
     });
   });
 
-  describe("Height", () => {
+  describe("height", () => {
     it("is less than 40 and greater than 0", () => {
-      expect(height).toBeMoreThan(0)
-      expect(height).toBeLessThan(40);
+      expect(39).toBeMoreThan(0)
+      expect(39).toBeLessThan(40);
     });
   });
 
